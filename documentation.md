@@ -6,10 +6,12 @@ language: EN
 narrator: US English Female Female
 
 import: https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
+import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/README.md
+import: https://github.com/liascript/CodeRunner
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/HansGrundig/ROB-Cocktailsort/blob/main/documentation.md)
+
 
 
 # Cocktailsort on a Strip of 12 LEDs

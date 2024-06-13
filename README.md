@@ -21,23 +21,23 @@ import: https://github.com/liascript/CodeRunner
 This is a repository for the projects of the english course for BOB  students at the TU Freiberg.
 Cocktail sort is an improvement on the Bubble Sort algorithm.
 
-~~Key features:~~
+Key features:
 
 - Swaps elements in both directions of the list.
 - Reduces the number of comparisons and swaps.
 
-~~Performance:~~
+Performance:
 
 - Can be faster than Bubble Sort for small datasets.
 - Stable sorting algorithm (preserves relative order of equal elements).
 - Easy to implement.
 
-~~Suitable for:~~
+Suitable for:
 
 - Small to medium-sized datasets.
 - Educational purposes
 
-~~Drawbacks:~~
+Drawbacks:
 
 - Inefficient for large datasets.
 - Slower than more efficient sorting algorithms like Quicksort or Mergesort.

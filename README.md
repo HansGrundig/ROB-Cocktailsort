@@ -11,6 +11,8 @@ import: https://github.com/liascript/CodeRunner
 
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/TUBAF-IUZ-LiaScript/ENGLISH-ROB-BGIP/blob/main/Arduino-projects/main.md)
+
 # Cocktailsort on a Strip of 12 LEDs
 
 ![cocktail](./img/Cocktail.png "img 1")

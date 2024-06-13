@@ -19,7 +19,6 @@ import: https://github.com/liascript/CodeRunner
 
 ## Cocktail Sort in a Nutshell
 
-This is a repository for the projects of the english course for BOB  students at the TU Freiberg.
 Cocktail sort is an improvement on the Bubble Sort algorithm.
 
 Key features:
@@ -43,13 +42,14 @@ Drawbacks:
 - Inefficient for large datasets.
 - Slower than more efficient sorting algorithms like Quicksort or Mergesort.
 
+<img src="./img/Animation.gif">
 
-## Code 
-- kurze Bedeutung der einzelnen Farben
-```
-Code 
-```
+
+
 ## Simulation
+
+- Pink < Blue < Green < Yellow->  ///farbig machen
+-
 
 <div id="matrix-experiment">
 <wokwi-neopixel-matrix pin="6" cols="12" rows="1"></wokwi-neopixel-matrix>
@@ -145,7 +145,7 @@ void loop()
 
 ## Further Improvements
 - programm other Sorting Algorithems 
-- print the values of the represented colour in console
+- print the values of the represented colour to console
 
 ## Sources
 img 1: https://de.vecteezy.com/png/19613611-cocktail-png-grafik-clipart-design

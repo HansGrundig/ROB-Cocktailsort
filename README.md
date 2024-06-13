@@ -143,8 +143,8 @@ void loop()
 @AVR8js.sketch(matrix-experiment)
 
 ## Further Improvements
-- other Sorting Algorithems 
-- different selection of sorting Algos
+- programm other Sorting Algorithems 
+- print the values of the represented colour in console
 
 ## Sources
 img 1: https://de.vecteezy.com/png/19613611-cocktail-png-grafik-clipart-design

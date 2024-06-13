@@ -15,7 +15,7 @@ import: https://github.com/liascript/CodeRunner
 
 # Cocktailsort on a Strip of 12 LEDs
 
-![cocktail](./img/Cocktail.png "img 1" =300x)
+![cocktail](./img/Cocktail.png =300x)
 ## Cocktail Sort in a Nutshell
 
 This is a repository for the projects of the english course for BOB  students at the TU Freiberg.

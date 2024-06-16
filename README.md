@@ -16,6 +16,7 @@ import: https://github.com/liascript/CodeRunner
 # Cocktailsort on a Strip of 12 LEDs
 
 <img src="./img/Cocktail.png" width="200">
+[img 1]
 
 ## Cocktail Sort in a Nutshell
 
@@ -42,21 +43,38 @@ Drawbacks:
 - Inefficient for large datasets.
 - Slower than more efficient sorting algorithms like Quicksort or Mergesort.
 
-<img src="./img/Animation.gif">
+<img src="./img/Animation.gif" alt="Cocktailsort Animation">
+[img 2]
+
 
 
 
 ## Simulation
 
-- Pink < Blue < Green < Yellow->  ///farbig machen
--
+
+<span style="color:pink">
+pink
+</span>
+<
+<span style="color:blue">
+blue
+</span>
+<
+<span style="color:green">
+green
+</span>
+<
+<span style="color:yellow">
+yellow
+</span>
+
 
 <div id="matrix-experiment">
 <wokwi-neopixel-matrix pin="6" cols="12" rows="1"></wokwi-neopixel-matrix>
 <span id="simulation-time"></span>
 </div>
 
-```cpp             Automata
+```cpp             Cocktailsort Simulation
 #include <Arduino.h>
 #include "FastLED.h"
 #define DATA_PIN 6
@@ -144,10 +162,10 @@ void loop()
 @AVR8js.sketch(matrix-experiment)
 
 ## Further Improvements
-- programm other Sorting Algorithems 
-- print the values of the represented colour to console
+- programm other Sorting algorithms 
+- printing the numbers representing the colors in the console
 
 ## Sources
 img 1: https://de.vecteezy.com/png/19613611-cocktail-png-grafik-clipart-design
-
+img 2: https://de.wikipedia.org/wiki/Shakersort#/media/Datei:Sorting_shaker_sort_anim.gif 
 

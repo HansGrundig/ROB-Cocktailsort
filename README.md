@@ -51,7 +51,6 @@ Drawbacks:
 
 ## Simulation
 
-
 <span style="color:pink">
 pink
 </span>
@@ -108,7 +107,7 @@ void cocktailShakerSort (int* list, int length)
         for (int i = 0; i < length; i ++)
         {
             if (list[i] > list[i + 1]) // Elements in wrong order?
-            {
+            {                          // from left to right
                 // Swap!
                 int temp = list[i];
                 list[i] = list[i + 1];
@@ -121,7 +120,7 @@ void cocktailShakerSort (int* list, int length)
         }
         if (!swapped) return;
         for (int i = length; i > 0; i--)
-        {
+        {                              // from right to left
             if (list[i] < list[i - 1])
             {
                 int temp = list[i];
@@ -156,16 +155,19 @@ void loop()
 
   cocktailShakerSort(sort, NUM_LEDS);
   
-  //delay(2000);
+  delay(2000);
 }
 ```
 @AVR8js.sketch(matrix-experiment)
 
 ## Further Improvements
-- programm other Sorting algorithms 
+- implement other Sorting algorithms 
 - printing the numbers representing the colors in the console
+- 
+- 
 
 ## Sources
 img 1: https://de.vecteezy.com/png/19613611-cocktail-png-grafik-clipart-design
+
 img 2: https://de.wikipedia.org/wiki/Shakersort#/media/Datei:Sorting_shaker_sort_anim.gif 
 

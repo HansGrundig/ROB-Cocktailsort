@@ -13,12 +13,21 @@ import: https://github.com/liascript/CodeRunner
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/HansGrundig/ROB-Cocktailsort/blob/main/README.md)
 
-# Cocktailsort on a Strip of 12 LEDs
+# Cocktail Sort on a Strip of 12 LEDs
+
+1. Explanation Cocktail Sort
+2. Simulation
+3. Further Improvements
+4. Sources
+
+- Where did the idea come from?
 
 <img src="./img/Cocktail.png" width="200">
+
 [img 1]
 
-## Cocktail Sort in a Nutshell
+
+## 1. Cocktail Sort in a Nutshell
 
 Cocktail sort is an improvement on the Bubble Sort algorithm.
 
@@ -41,15 +50,16 @@ Suitable for:
 Drawbacks:
 
 - Inefficient for large datasets.
-- Slower than more efficient sorting algorithms like Quicksort or Mergesort.
+- Slower than more efficient sorting algorithms like        Quicksort or Merge Sort.
 
-<img src="./img/Animation.gif" alt="Cocktailsort Animation">
+<img src="./img/Animation.gif" alt="Cocktail Sort Animation">
+
 [img 2]
 
 
 
 
-## Simulation
+## 2. Simulation
 
 <span style="color:pink">
 pink
@@ -73,7 +83,7 @@ yellow
 <span id="simulation-time"></span>
 </div>
 
-```cpp             Cocktailsort Simulation
+```cpp             Cocktail Sort Simulation
 #include <Arduino.h>
 #include "FastLED.h"
 #define DATA_PIN 6
@@ -160,13 +170,14 @@ void loop()
 ```
 @AVR8js.sketch(matrix-experiment)
 
-## Further Improvements
+- Challenges during development
+
+## 3. Further Improvements
 - implement other Sorting algorithms 
 - printing the numbers representing the colors in the console
-- 
-- 
 
-## Sources
+## 4. Sources
+
 img 1: https://de.vecteezy.com/png/19613611-cocktail-png-grafik-clipart-design
 
 img 2: https://de.wikipedia.org/wiki/Shakersort#/media/Datei:Sorting_shaker_sort_anim.gif 

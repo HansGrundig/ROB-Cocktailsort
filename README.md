@@ -173,8 +173,11 @@ void loop()
 - Challenges during development
 
 ## 3. Further Improvements
-- implement other Sorting algorithms 
+
 - printing the numbers that are representing the colors in the console
+
+- (implement other Sorting Algorithms) 
+
 
 ## 4. Sources
 

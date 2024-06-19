@@ -174,7 +174,7 @@ void loop()
 
 ## 3. Further Improvements
 - implement other Sorting algorithms 
-- printing the numbers representing the colors in the console
+- printing the numbers that are representing the colors in the console
 
 ## 4. Sources
 

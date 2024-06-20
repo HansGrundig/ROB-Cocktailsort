@@ -123,7 +123,7 @@ void cocktailShakerSort (int* list, int length)
                 list[i] = list[i + 1];
                 list[i + 1] = temp;
                 swapped = 1;
-                delay(250); 
+                delay(500); 
                 led_colorval(list, colors);
                 FastLED.show(); 
             }
@@ -165,7 +165,7 @@ void loop()
 
   cocktailShakerSort(sort, NUM_LEDS);
   
-  delay(2000);
+  delay(20000);
 }
 ```
 @AVR8js.sketch(matrix-experiment)

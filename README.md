@@ -110,10 +110,10 @@ void led_colorval(int* array, CRGB* colors)
 
 void cocktailShakerSort (int* list, int length)
 {
-    int j = 0;
     int swapped = 0;
     do
     {
+        swapped = 0;
         for (int i = 0; i < length; i ++)
         {
             if (list[i] > list[i + 1]) // Elements in wrong order?
